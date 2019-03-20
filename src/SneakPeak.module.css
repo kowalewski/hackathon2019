@@ -1,0 +1,122 @@
+.container {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.container:hover {
+    z-index: 9999 !important;
+}
+
+.title {
+    color: #fff;
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    width: 80%;
+    font-size: 6.5vw;
+    z-index: 2;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+
+.iconPlay {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: solid 2px #fff;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.iconPlay:before {
+    content: '';
+    width: 34px;
+    height: 53px;
+    border-left: 2px solid #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 43px;
+    left: 60px;
+}
+
+.iconPlay:after {
+    content: '';
+    position: absolute;
+    top: 47px;
+    left: 42px;
+    width: 42px;
+    height: 42px;
+    transform: rotate(45deg) skew(-5deg, -5deg);
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.iconPlay:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    cursor: pointer;
+}
+
+.duration {
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+}
+
+.close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.close:before,
+.close:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: #fff;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.close:hover {
+    transform: scale(1.3);
+}
+
+.layer {
+    background-color: #e07a5f;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+}

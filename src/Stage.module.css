@@ -1,0 +1,19 @@
+.stage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3d405b;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+}

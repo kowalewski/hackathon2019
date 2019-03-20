@@ -1,0 +1,73 @@
+export const videos = [
+    {
+        id: '195560196',
+        title: 'Luftskipstunt: – Pilotene presset grensene til det ytterste',
+        summary:
+            'Det er skiløperne som utfører stuntet, men det er pilotene som skal ha honnøren.',
+        provider: 'jw',
+        provider_id: 'HSm6Ukjr',
+        videoDuration: 82,
+        videoImageUrl: 'https://cdn.jwplayer.com/thumbs/HSm6Ukjr-1280.jpg',
+        shareCount: 0,
+        published: 'Tue, 12 Mar 2019 08:22:59 +0100',
+    },
+    {
+        id: '195558592',
+        title: 'Syklister i veibanen: Se bilistens «utradisjonelle løsning»',
+        summary: 'Dave grep sjansen da han havnet bak en syklist.',
+        provider: 'jw',
+        provider_id: 'Q7vVHwPD',
+        videoDuration: 46,
+        videoImageUrl: 'https://cdn.jwplayer.com/thumbs/Q7vVHwPD-1280.jpg',
+        shareCount: 0,
+        published: 'Sun, 10 Mar 2019 14:56:06 +0100',
+    },
+    {
+        id: '195558823',
+        title: 'Underleverandør fikk ikke betalt - gikk «berserk»',
+        summary:
+            'Men denne lærepengen skulle vise seg å være en svært dårlig idé.',
+        provider: 'jw',
+        provider_id: '2fhgoLxi',
+        videoDuration: 121,
+        videoImageUrl: 'https://cdn.jwplayer.com/thumbs/2fhgoLxi-1280.jpg',
+        shareCount: 0,
+        published: 'Sun, 10 Mar 2019 10:48:27 +0100',
+    },
+    {
+        id: '195557426',
+        title:
+            'Tvillingene synger for sin kreftsyke mor – dagen etter er hun borte',
+        summary:
+            'Familien ville dele døtrenes sang med verden, så svarte popstjernen.',
+        provider: 'jw',
+        provider_id: 'y3E5O5JA',
+        videoDuration: 62,
+        videoImageUrl: 'https://cdn.jwplayer.com/thumbs/y3E5O5JA-1280.jpg',
+        shareCount: 0,
+        published: 'Sun, 10 Mar 2019 08:06:07 +0100',
+    },
+    {
+        id: '195558176',
+        title: 'Dronepilot advarer etter skrekktabbe – kunne blitt drapsmann',
+        summary:
+            'Først da han så videoen innså Christopher hvor dumdristig han hadde vært.',
+        provider: 'jw',
+        provider_id: 'PoRFA7Gi',
+        videoDuration: 66,
+        videoImageUrl: 'https://cdn.jwplayer.com/thumbs/PoRFA7Gi-1280.jpg',
+        shareCount: 0,
+        published: 'Sat, 09 Mar 2019 14:52:22 +0100',
+    },
+    {
+        id: '195558240',
+        title: 'Fyrtårnet filleristes av de mektige naturkreftene',
+        summary: 'Stormen sendte voldsomme bølger inn over Malta.',
+        provider: 'jw',
+        provider_id: 'tlUPp0OR',
+        videoDuration: 41,
+        videoImageUrl: 'https://cdn.jwplayer.com/thumbs/tlUPp0OR-1280.jpg',
+        shareCount: 0,
+        published: 'Sat, 09 Mar 2019 12:18:39 +0100',
+    },
+];
