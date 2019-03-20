@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { string, number } from 'prop-types';
-import { TweenLite } from 'gsap/all';
+
+const gsap = require('gsap');
+const TweenLite = gsap.TweenLite;
 
 function getWindowSize() {
     return {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { arrayOf } from 'prop-types';
-import { TimelineLite } from 'gsap/all';
 import throttle from 'lodash/throttle';
 import prefetchImages from 'prefetch-image';
 
@@ -9,6 +8,9 @@ import Scene from './Scene';
 import Navigation from './Navigation';
 
 import styles from './Stage.module.css';
+
+const gsap = require('gsap');
+const TimelineLite = gsap.TimelineLite;
 
 const colors = [
     '#5DD9C1',
@@ -45,14 +47,11 @@ class Stage extends Component {
     componentDidMount() {
         this.stageTween = new TimelineLite();
         document.addEventListener('keyup', throttle(this.handleKeyUp, 300));
-
         const images = this.props.items.map(item => item.videoImageUrl);
         prefetchImages(images).then(result => {
-            setTimeout(() => {
-                this.stageTween.to(this.layerRef, 0.3, {
-                    yPercent: -100,
-                });
-            }, 700);
+            this.stageTween.to(this.layerRef, 0.3, {
+                yPercent: -100,
+            });
         });
     }
 

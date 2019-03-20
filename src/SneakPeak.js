@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { string } from 'prop-types';
-import { TimelineLite, TweenLite } from 'gsap/all';
-
 import ViprPlayer from './ViprPlayer';
 import { videoShape } from './shapes';
 import styles from './SneakPeak.module.css';
+
+const gsap = require('gsap');
+
+const TimelineLite = gsap.TimelineLite;
+const TweenLite = gsap.TweenLite;
 
 const initialContainerPosition = {
     width: '40%',
